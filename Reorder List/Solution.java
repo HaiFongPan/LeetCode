@@ -1,12 +1,3 @@
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-         val = x;
-         next = null;
-    }
- }
-
 public class Solution {
     public ListNode reorderList(ListNode head) {
         if (head == null) {
@@ -55,31 +46,4 @@ public class Solution {
         }
         return L1;
     }
-
-//     public static void main(String args[]){
-//         ListNode a = new ListNode(6);
-//         ListNode b = new ListNode(4);
-//         ListNode c = new ListNode(5);
-//         ListNode d = new ListNode(10);
-//         ListNode e = new ListNode(7);
-//         ListNode f = new ListNode(3);
-//         ListNode g = new ListNode(2);
-//         a.next = b;
-//         b.next = c;
-// //        c.next = d;
-// //        d.next = e;
-// //        e.next = f;
-// //        f.next = g;
-//         Solution s = new Solution();
-//         ListNode x = s.reorderList(null);
-//         s.printtttt(x);
-//     }
-
-//     public void printtttt(ListNode x){
-//         while ( x != null) {
-//             System.out.print(x.val+"-->");
-//             x = x.next;
-//         }
-//         System.out.println();
-//     }
 }
