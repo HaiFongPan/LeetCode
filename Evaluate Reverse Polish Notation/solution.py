@@ -27,9 +27,3 @@ class Solution:
           stack.append(x)
         # print stack
       return int(stack.pop())
-
-
-if __name__ == '__main__':
-  tokens = ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
-  s = Solution()
-  print s.evalRPN(tokens)

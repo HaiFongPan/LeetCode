@@ -28,22 +28,3 @@ class Solution:
           self.func(root.right, rootNum, result)
         if not root.left and not root.right:
           result.append(rootNum)
-
-# if __name__ == '__main__':
-#   leafA = TreeNode(1)
-#   leafB = TreeNode(4)
-#   leafC = TreeNode(5)
-#   leafD = TreeNode(7)
-#   leafE = TreeNode(8)
-#   rootA = TreeNode(2)
-#   rootB = TreeNode(3)
-
-#   rootA.left = leafA
-#   rootA.right = rootB
-#   rootB.left = leafB
-#   rootB.right = leafC
-#   leafA.left = leafD
-#   leafA.right = leafE
-
-#   s = Solution()
-#   print s.sumNumbers(rootA)

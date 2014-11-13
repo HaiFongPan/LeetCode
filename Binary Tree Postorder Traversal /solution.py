@@ -24,18 +24,3 @@ class Solution:
       # append integer
       result.append(root.val)
     return result
-
-# if __name__ == '__main__':
-#   leafA = TreeNode(1)
-#   leafB = TreeNode(4)
-#   leafC = TreeNode(5)
-#   rootA = TreeNode(2)
-#   rootB = TreeNode(3)
-
-#   rootA.left = leafA
-#   rootA.right = rootB
-#   rootB.left = leafB
-#   rootB.right = leafC
-
-#   s = Solution()
-#   print s.postorderTraversal(None)

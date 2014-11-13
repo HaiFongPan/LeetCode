@@ -16,5 +16,3 @@ class Solution:
           tmp = tmp1
         arr.append(1)
       return arr
-if __name__ == '__main__':
-  print Solution().getRow(11)

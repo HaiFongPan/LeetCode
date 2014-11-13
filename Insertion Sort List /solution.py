@@ -20,7 +20,7 @@ class Solution:
       pre = None
       now = result
       while now != None and nextNode.val >= now.val:
-        pre = now 
+        pre = now
         now = now.next
 
       newNode = ListNode(nextNode.val)
@@ -35,23 +35,3 @@ class Solution:
       nextNode = nextNode.next
 
     return result
-
-# if __name__ == '__main__':
-#   a = ListNode(6)
-#   b = ListNode(4)
-#   c = ListNode(5)
-#   d = ListNode(10)
-#   e = ListNode(7)
-#   f = ListNode(3)
-#   g = ListNode(2)
-#   a.next = b
-#   b.next = c
-#   c.next = d
-#   d.next = e
-#   e.next = f
-#   f.next = g
-#   s = Solution()
-#   x = s.insertionSortList(a)
-#   while x != None:
-#     print x.val
-#     x = x.next
