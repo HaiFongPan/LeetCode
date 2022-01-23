@@ -42,7 +42,7 @@ type WordFilter struct {
 	Root *TrieN745
 }
 
-func Constructor(words []string) WordFilter {
+func Constructor745(words []string) WordFilter {
 	root := &TrieN745{Weight: -1, Children: make([]*TrieN745, 27)}
 	for k, v := range words {
 		root.insert(v, k)
