@@ -3,7 +3,7 @@ package leetcode
 import "testing"
 
 func TestStockPrice_Update(t *testing.T) {
-	stockPrice := Constructor()
+	stockPrice := Constructor2034()
 	stockPrice.Update(45, 9233)
 	stockPrice.Update(45, 9651)
 	stockPrice.Update(37, 3902)

@@ -1,5 +1,7 @@
 package leetcode
 
+import "github.com/emirpasic/gods/trees/redblacktree"
+
 /*
  * @lc app=leetcode.cn id=2034 lang=golang
  *
@@ -13,7 +15,7 @@ type StockPrice struct {
 	maxTimestamp int
 }
 
-func Constructor() StockPrice {
+func Constructor2034() StockPrice {
 	return StockPrice{redblacktree.NewWithIntComparator(), map[int]int{}, 0}
 }
 
