@@ -35,4 +35,5 @@ func TestGridIllumination(t *testing.T) {
 
 		})
 	}
+
 }
