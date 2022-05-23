@@ -1,7 +1,5 @@
 package leetcode
 
-import "github.com/emirpasic/gods/trees/redblacktree"
-
 /*
  * @lc app=leetcode.cn id=2034 lang=golang
  *
@@ -14,16 +12,9 @@ import "github.com/emirpasic/gods/trees/redblacktree"
 // 	timePriceMap map[int]int
 // 	maxTimestamp int
 // }
-
-<<<<<<< HEAD
-func Constructor2034() StockPrice {
-	return StockPrice{redblacktree.NewWithIntComparator(), map[int]int{}, 0}
-}
-=======
 // func Constructor() StockPrice {
 // 	return StockPrice{redblacktree.NewWithIntComparator(), map[int]int{}, 0}
 // }
->>>>>>> 2484e0db10e185b7695f5043bfba6af4bbed339a
 
 // func (sp *StockPrice) Update(timestamp, price int) {
 // 	if prevPrice := sp.timePriceMap[timestamp]; prevPrice > 0 {
